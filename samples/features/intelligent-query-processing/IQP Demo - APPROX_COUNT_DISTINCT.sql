@@ -3,7 +3,7 @@
 
 -- See https://aka.ms/IQP for more background
 
--- Demo scripts: https://aka.ms/IQPDemos 
+-- Demo scripts: https://aka.ms/IQPDemos
 
 -- Demo uses SQL Server 2019 and Azure SQL DB
 
@@ -14,9 +14,6 @@ USE [master];
 GO
 
 ALTER DATABASE [WideWorldImportersDW] SET COMPATIBILITY_LEVEL = 150;
-GO
-
-ALTER DATABASE SCOPED CONFIGURATION CLEAR PROCEDURE_CACHE;
 GO
 
 USE [WideWorldImportersDW];
